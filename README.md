@@ -1,14 +1,5 @@
 # Azure Log Analytics Toolkit
 
-<div align="center">
-  
-  ![Azure Log Analytics Toolkit](https://img.shields.io/badge/Azure-Log%20Analytics-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white)
-  ![KQL](https://img.shields.io/badge/KQL-Queries-FF6B35?style=for-the-badge&logo=microsoft&logoColor=white)
-  ![Security](https://img.shields.io/badge/Security-Monitoring-FF0000?style=for-the-badge&logo=security&logoColor=white)
-  ![Operations](https://img.shields.io/badge/Operations-Intelligence-00A86B?style=for-the-badge&logo=operations&logoColor=white)
-  
-</div>
-
 ## 🔍 Overview
 
 A curated collection of Kusto Query Language (KQL) queries for Azure Log Analytics, designed to help security analysts and operations teams monitor their Azure environments effectively. This toolkit focuses on practical, tested queries that address common monitoring and investigation scenarios.
@@ -92,28 +83,31 @@ SecurityEvent
 
 This toolkit is designed to support enterprise-scale Azure Log Analytics deployments with sophisticated monitoring architectures. The architecture diagram below showcases how Azure Log Analytics can be implemented across multiple subscriptions with centralized management and comprehensive integration capabilities.
 
-![Azure Log Analytics Enterprise Architecture](assets/enterprise-architecture-diagram.png)
+![Azure Log Analytics Enterprise Architecture](./assets/azure-log-analytics-architecture.png)
 
 ### Key Architecture Components
 
 #### Multi-Subscription Monitoring
-- **Centralized Log Analytics Workspace**: A single workspace collecting logs from multiple Azure subscriptions
-- **Cross-subscription data collection**: Agents and diagnostic settings configured across different subscription boundaries
-- **Unified security monitoring**: Consolidated view of security events and threats across the entire enterprise
-- **Scalable resource management**: Distributed resource monitoring with centralized analysis and reporting
+
+• **Centralized Log Analytics Workspace**: A single workspace collecting logs from multiple Azure subscriptions
+• **Cross-subscription data collection**: Agents and diagnostic settings configured across different subscription boundaries
+• **Unified security monitoring**: Consolidated view of security events and threats across the entire enterprise
+• **Scalable resource management**: Distributed resource monitoring with centralized analysis and reporting
 
 #### Centralized Management
-- **Single pane of glass**: Unified dashboard for monitoring all enterprise resources
-- **Centralized alerting**: Consistent alert rules and notification policies across all subscriptions
-- **Role-based access control**: Granular permissions management for different teams and stakeholders
-- **Cost optimization**: Centralized log retention policies and data management strategies
+
+• **Single pane of glass**: Unified dashboard for monitoring all enterprise resources
+• **Centralized alerting**: Consistent alert rules and notification policies across all subscriptions
+• **Role-based access control**: Granular permissions management for different teams and stakeholders
+• **Cost optimization**: Centralized log retention policies and data management strategies
 
 #### Integration Capabilities
-- **Azure Sentinel integration**: Advanced security analytics and SIEM capabilities
-- **Azure Monitor integration**: Comprehensive metrics and logging across all Azure services
-- **Third-party SIEM connectivity**: Export capabilities for existing security tools
-- **API and PowerShell automation**: Programmatic access for custom integrations and workflows
-- **Hybrid connectivity**: On-premises and multi-cloud monitoring through Azure Arc and agents
+
+• **Azure Sentinel integration**: Advanced security analytics and SIEM capabilities
+• **Azure Monitor integration**: Comprehensive metrics and logging across all Azure services
+• **Third-party SIEM connectivity**: Export capabilities for existing security tools
+• **API and PowerShell automation**: Programmatic access for custom integrations and workflows
+• **Hybrid connectivity**: On-premises and multi-cloud monitoring through Azure Arc and agents
 
 This enterprise architecture enables organizations to achieve comprehensive visibility, maintain security compliance, and optimize operational efficiency across their entire Azure ecosystem.
 
@@ -141,13 +135,13 @@ Please ensure any contributed queries are:
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
 
 ## 👤 Author
 
 **Ariff Mohamed**
 
-- 📧 Email: ariff@aglobaltec.com
+- 📧 Email: [ariff@aglobaltec.com](mailto:ariff@aglobaltec.com)
 - 💼 [LinkedIn](https://linkedin.com/in/ariff-mohamed)
 - 🌐 [Website](https://aglobaltec.com/)
 
@@ -161,4 +155,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ⭐ If this toolkit helps you in your Azure Log Analytics journey, please consider giving it a star! ⭐
 
-*Built with ❤️ for the Azure community*
+**Built with ❤️ for the Azure community**
