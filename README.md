@@ -1,10 +1,12 @@
 # Azure Log Analytics Toolkit
 
 <div align="center">
+  
   ![Azure Log Analytics Toolkit](https://img.shields.io/badge/Azure-Log%20Analytics-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white)
   ![KQL](https://img.shields.io/badge/KQL-Queries-FF6B35?style=for-the-badge&logo=microsoft&logoColor=white)
   ![Security](https://img.shields.io/badge/Security-Monitoring-FF0000?style=for-the-badge&logo=security&logoColor=white)
   ![Operations](https://img.shields.io/badge/Operations-Intelligence-00A86B?style=for-the-badge&logo=operations&logoColor=white)
+  
 </div>
 
 ## 🔍 Overview
@@ -90,7 +92,7 @@ SecurityEvent
 
 This toolkit is designed to support enterprise-scale Azure Log Analytics deployments with sophisticated monitoring architectures. The architecture diagram below showcases how Azure Log Analytics can be implemented across multiple subscriptions with centralized management and comprehensive integration capabilities.
 
-![Azure Log Analytics Enterprise Architecture](https://via.placeholder.com/800x600/0078D4/FFFFFF?text=Azure+Log+Analytics+Enterprise+Architecture)
+![Azure Log Analytics Enterprise Architecture](assets/enterprise-architecture-diagram.png)
 
 ### Key Architecture Components
 
@@ -157,6 +159,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-⭐ **If this toolkit helps you in your Azure Log Analytics journey, please consider giving it a star!** ⭐
+⭐ If this toolkit helps you in your Azure Log Analytics journey, please consider giving it a star! ⭐
 
 *Built with ❤️ for the Azure community*
