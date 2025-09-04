@@ -1,5 +1,10 @@
 # Azure Log Analytics Toolkit
 
+![Azure Log Analytics](https://img.shields.io/badge/Azure%20Log%20Analytics-blue?style=for-the-badge&logo=microsoft-azure&logoColor=white)
+![KQL Queries](https://img.shields.io/badge/KQL%20Queries-orange?style=for-the-badge&logo=microsoft&logoColor=white)
+![Security Monitoring](https://img.shields.io/badge/Security%20Monitoring-red?style=for-the-badge&logo=security&logoColor=white)
+![Operations Intelligence](https://img.shields.io/badge/Operations%20Intelligence-green?style=for-the-badge&logo=operations&logoColor=white)
+
 ## 🔍 Overview
 
 A curated collection of Kusto Query Language (KQL) queries for Azure Log Analytics, designed to help security analysts and operations teams monitor their Azure environments effectively. This toolkit focuses on practical, tested queries that address common monitoring and investigation scenarios.
@@ -83,7 +88,7 @@ SecurityEvent
 
 This toolkit is designed to support enterprise-scale Azure Log Analytics deployments with sophisticated monitoring architectures. The architecture diagram below showcases how Azure Log Analytics can be implemented across multiple subscriptions with centralized management and comprehensive integration capabilities.
 
-![Azure Log Analytics Enterprise Architecture](./assets/azure-log-analytics-architecture.png)
+![Azure Log Analytics Enterprise Architecture](assets/azure-log-analytics-enterprise-architecture.png)
 
 ### Key Architecture Components
 
@@ -135,7 +140,7 @@ Please ensure any contributed queries are:
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 👤 Author
 
@@ -153,6 +158,6 @@ This project is licensed under the MIT License - see the [LICENSE](./LICENSE) fi
 
 ---
 
-⭐ If this toolkit helps you in your Azure Log Analytics journey, please consider giving it a star! ⭐
+⭐ **If this toolkit helps you in your Azure Log Analytics journey, please consider giving it a star!** ⭐
 
-**Built with ❤️ for the Azure community**
+*Built with ❤️ for the Azure community*
